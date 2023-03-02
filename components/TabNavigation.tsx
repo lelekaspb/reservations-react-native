@@ -8,7 +8,7 @@ export default function TabNavigation() {
   return (
     <Tab.Navigator>
       <Tab.Screen
-        name="List"
+        name="All"
         component={Navigation}
         options={{ headerShown: false }}
       />

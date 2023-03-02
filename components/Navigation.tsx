@@ -7,7 +7,7 @@ import DeleteScreen from "../screens/DeleteScreen";
 export type StackMain = {
   List: undefined;
   Edit: { booking: BookingEntity };
-  Delete: undefined;
+  Delete: { id: string };
 };
 
 const Stack = createNativeStackNavigator<StackMain>();

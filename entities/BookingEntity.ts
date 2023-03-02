@@ -1,7 +1,7 @@
 export class BookingEntity {
   id?: number;
   name: string;
-  numberOfPeople: number;
+  numberOfPeople: string;
   date: Date;
   phone: string;
   email: string;
@@ -9,7 +9,7 @@ export class BookingEntity {
 
   constructor(
     name: string,
-    numberOfPeople: number,
+    numberOfPeople: string,
     date: Date,
     phone: string,
     email: string,
